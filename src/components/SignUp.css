@@ -1,0 +1,12 @@
+.sign_up_container{
+    width: 100vw;
+    min-height: 300px;
+    display: flex;justify-content: center;
+}
+.signup_form{
+    width: 500px;
+    margin-top: 20px;
+}
+.frombtn{
+    cursor: pointer;
+}
