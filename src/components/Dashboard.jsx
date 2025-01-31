@@ -138,7 +138,7 @@ export const Dashboard = () => {
             <div className="row m-0 ">
 
               <div className="col-12 col-md-6 text-center mt-2">
-                <input type="date" name="" id="" className='btn btn-info btn-lg fs-4 fw-bold w-100' onChange={(e)=>{
+                <input type="date" placeholder='dd/mm/yyyy' name="" id="" className='btn btn-info btn-lg fs-4 fw-bold w-100' onChange={(e)=>{
                   settrainDate(e.target.value)
                   setgetDate(e.target.value)
                 }}/>
